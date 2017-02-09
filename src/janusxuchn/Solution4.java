@@ -44,7 +44,7 @@ public class Solution4 {
         	num*=10;
         	num+=str.charAt(index)-48;
         	index++;
-        	if(num>2147483648)
+        	if(num>2147483647)
         		break;
         }
         

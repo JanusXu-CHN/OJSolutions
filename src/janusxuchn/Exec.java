@@ -1,5 +1,7 @@
 package janusxuchn;
 
+import java.util.ArrayList;
+
 //import java.util.List;
 
 public class Exec {
@@ -16,7 +18,18 @@ public class Exec {
 		}
 		*/
 		
+		Solution5 solution5=new Solution5();
+		int[] nums={1,0,-1,-1,-1,-1,0,1,1,1};
 		
+		ArrayList<ArrayList<Integer>> list = solution5.threeSum(nums);
+		
+		for (ArrayList<Integer> arrayList : list) {
+			System.out.print("{");
+			for (Integer integer : arrayList) {
+				System.out.print(integer+",");
+			}
+			System.out.println("}");
+		}
 	}
 
 }
