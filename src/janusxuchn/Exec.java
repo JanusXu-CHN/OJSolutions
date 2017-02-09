@@ -18,7 +18,7 @@ public class Exec {
 		}
 		*/
 		
-		Solution5 solution5=new Solution5();
+		/*Solution5 solution5=new Solution5();
 		int[] nums={1,0,-1,-1,-1,-1,0,1,1,1};
 		
 		ArrayList<ArrayList<Integer>> list = solution5.threeSum(nums);
@@ -29,7 +29,11 @@ public class Exec {
 				System.out.print(integer+",");
 			}
 			System.out.println("}");
-		}
+		}*/
+		
+		Solution7 solution7=new Solution7();
+		int arr[][]={{1,3,5,7},{10,11,16,20},{23,30,34,50}};
+		System.out.println(solution7.searchMatrix(arr, 7));
 	}
 
 }
