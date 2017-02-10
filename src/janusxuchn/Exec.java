@@ -41,9 +41,14 @@ public class Exec {
 		System.out.println(solution8.woodCut(arr, 9000));
 		*/
 		
-		Solution9 solution9=new Solution9();
+		/*Solution9 solution9=new Solution9();
 		int[] arr={6,8,9,1,3,5};
 		System.out.println(solution9.search(arr, 5));
+		*/
+		
+		Solution10 solution10=new Solution10();
+		int[] arr={9,10,100,101,1002,10203};
+		System.out.println(solution10.searchRange(arr, 10203));
 	}
 
 }
