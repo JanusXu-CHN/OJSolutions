@@ -21,6 +21,10 @@ public class Solution8 {
     public int woodCut(int[] L, int k) {
         // write your code here
         
+    	if(L.length==0){
+            return 0;
+        }
+    	
         long sumLength=0;
         int min=L[0];
         for(int i=0;i<L.length;i++){
@@ -41,7 +45,7 @@ public class Solution8 {
         
         boolean flag=false;
         long i=(low+high)/2; 
-        while(true){
+        while(high>low){
             
             if(high-low==1){
                 if(flag){
@@ -62,5 +66,6 @@ public class Solution8 {
             }
             i=(low+high)/2;
         }
+        return (int)i;
     }
 }
