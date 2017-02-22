@@ -46,9 +46,13 @@ public class Exec {
 		System.out.println(solution9.search(arr, 5));
 		*/
 		
-		Solution10 solution10=new Solution10();
+		/*Solution10 solution10=new Solution10();
 		int[] arr={9,10,100,101,1002,10203};
 		System.out.println(solution10.searchRange(arr, 10203));
+		*/
+		
+		Solution13 solution13=new Solution13();
+		System.out.println(solution13.fastPower(3, 7, 5));
 	}
 
 }
