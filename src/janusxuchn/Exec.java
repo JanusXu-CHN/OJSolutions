@@ -51,8 +51,12 @@ public class Exec {
 		System.out.println(solution10.searchRange(arr, 10203));
 		*/
 		
-		Solution13 solution13=new Solution13();
+		/*Solution13 solution13=new Solution13();
 		System.out.println(solution13.fastPower(3, 7, 5));
+		*/
+		
+		Solution20 solution20 = new Solution20();
+		System.out.println(solution20.DeleteDigits("178542", 4));
 	}
 
 }
